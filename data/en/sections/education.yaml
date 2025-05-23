@@ -1,0 +1,36 @@
+section:
+  name: Education
+  id: education
+  template: 'sections/education.html' # Use "sections/education-alt.html" for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # hideTitle: true
+
+degrees:
+  - name: 'B.S. in Computer Science'
+    icon: fa-graduation-cap
+    timeframe: '2022 – 2026 (Expected)'
+    institution:
+      name: 'Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology'
+      url: 'https://paf-iast.edu.pk/'
+      logo: '/images/sections/education/pafiast.jpg'
+      darkLogo: '/images/sections/education/pafiast.jpg'
+    grade:
+      scale: CGPA
+      achieved: 3.77
+      outOf: 4
+    publications: []
+    extracurricularActivities:
+      - 'Co-Lead of Google Developer Group on Campus (GDGoC - 2025).'
+      - 'Teaching Assistant for subject of Compiler Construction and COAL.'
+      - 'Organizer of AICE (Artificial Intelligence Conference and Expo) under the Sino-Pak Center for AI.'
+    customSections:
+      - name: Academic Achievements
+        content: |
+          - 1× Rector’s List Award
+          - 3× Dean’s List Awards
+        # - name: Final Year Project
+        #   content: 'Working on AI-based deep fake detection for videos, audios and images.'
+        # - name: Exchange Program
+        #   content: 'Final semester will be spent at Upper Austria Campus Hagenberg for software research and internship opportunities.'

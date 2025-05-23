@@ -1,0 +1,81 @@
+section:
+  name: Experiences # Titre de la section (par défaut: "" )
+  id: experiences # url id/slug of section *Required*
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+  - company:
+      name: 'Stanford Code in Place'
+      url: 'https://codeinplace.stanford.edu/'
+      location: 'Remote'
+      logo: '/images/sections/experiences/stanford.png' # Make sure this path exists in your static/images directory
+      darkLogo: '/images/sections/experiences/stanford.png'
+      overview: >
+        Code in Place is a global initiative by Stanford University that brings together volunteers 
+        to teach computer science through the CS106A curriculum, fostering inclusive and accessible education worldwide.
+    positions:
+      - designation: 'Section Leader'
+        start: 'April 2025'
+        end: 'May 2025'
+        responsibilities:
+          - 'Taught Python programming using Stanford’s CS106A curriculum to a diverse cohort of 13 students from countries including Turkey, the US, Canada, Pakistan, and more.'
+          - 'Facilitated weekly online coding sessions and discussions, promoting conceptual understanding and practical coding skills.'
+          - 'Guided and mentored students through exercises and assignments, providing feedback and support.'
+          - 'Collaborated with Stanford student TAs and faculty to align teaching strategies and improve learner outcomes.'
+          - 'Encouraged global engagement and inclusivity through personalized, interactive instruction.'
+
+  - company:
+      name: 'Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology'
+      url: 'https://paf-iast.edu.pk/'
+      location: 'Mang, Haripur'
+      logo: '/images/sections/education/pafiast.jpg'
+      darkLogo: '/images/sections/education/pafiast.jpg'
+      overview: 'Pak-Austria Fachhochschule is a leading applied sciences university offering industry-integrated education and research opportunities, particularly in AI, cybersecurity, and engineering.'
+    positions:
+      - designation: 'Teacher Assistant'
+        start: 'September 2024'
+        end: 'Present'
+        responsibilities:
+          - 'Assisted in course management and student support for Compiler Construction and COAL.'
+          - 'Supported faculty in organizing practical lab sessions and tutorials.'
+          - 'Maintain records of student progress, attendance, and assignments.'
+          - 'Evaluate and provide feedback on student assignments under the teacher’s guidance.'
+          - 'Facilitate communication between teachers and students to address academic needs.'
+
+  - company:
+      name: National Centre for Physics
+      url: 'https://www.ncp.edu.pk/'
+      location: Islamabad, Pakistan
+      logo: /images/sections/experiences/ncp.jpg
+      darkLogo: /images/sections/experiences/ncp.jpg
+      overview: National Centre for Physics (NCP) is a leading Pakistani research institute focusing on theoretical and applied physics, offering internships and research opportunities in AI and machine learning.
+    positions:
+      - designation: Machine Learning Intern
+        start: July 2024
+        end: August 2024
+        responsibilities:
+          - Utilized Python extensively for data preprocessing, analysis, and deep learning model development.
+          - Built and trained CNN and ANN models to improve prediction and classification performance.
+          - Applied pre-trained architectures like ResNet, VGG16, and VGG19 to achieve high accuracy on custom datasets.
+          - Implemented YOLOv5 for object detection tasks, enhancing performance on complex image datasets.
+
+  - company:
+      name: Agriculture Extension Office, Haripur
+      url: 'http://www.agriextensionharipur.com'
+      location: Haripur, Pakistan
+      logo: /images/sections/experiences/agri.png
+      darkLogo: /images/sections/experiences/agri.png
+      overview: Agriculture Extension Office Haripur supports local farmers through education and field services. The department adopted digital solutions to modernize data collection and improve monitoring.
+    positions:
+      - designation: MERN Stack Developer
+        start: November 2023
+        end: February 2024
+        responsibilities:
+          - Developed a responsive web application to digitize paper-based data collection using the MERN stack.
+          - Built a supervisor dashboard to monitor employee activities, including farmer visits and date-wise data logs.
+          - Deployed the application on a VPS Ubuntu server, ensuring secure and restricted global access for authorized staff.

@@ -1,0 +1,26 @@
+# section information
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+achievements:
+  - title: Solved All Puzzles – Harvard Puzzle Day 2025
+    image: '/images/sections/achievements/harvard_puzzleday_25.jpeg'
+    summary: Successfully solved all 9 challenging puzzles at Harvard Puzzle Day 2025, showcasing problem-solving skills, logic, and collaboration in a high-pressure academic setting.
+
+  - title: 1st Place – 6th URRAN Exhibition 2024
+    image: '/images/sections/achievements/uraan.jpeg'
+    summary: Secured 1st place among 40+ projects at the 6th URRAN Exhibition 2024 with my team for developing a web application for the Agriculture Extension Office Haripur.
+
+  - title: Academic Excellence – ICS Section Topper at APSACS 2021
+    image: '/images/sections/achievements/apsacs.png'
+    summary: Achieved 1st position in my ICS section at APSACS and ranked among the top 10 students in the entire college after the FSC Part-I result. In recognition, I was awarded a Mi Watch 6 for academic excellence.
+
+  - title: 1st Place – Inter-House Volleyball Champion (2019)
+    image: '/images/sections/achievements/volley.png'
+    summary: Led my house volleyball team to victory in the 2019 inter-house sports competition during matriculation, securing 1st place after winning multiple matches and showcasing leadership and teamwork.

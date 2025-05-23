@@ -1,0 +1,41 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+skills:
+  - name: React and Next JS
+    logo: /images/sections/skills/react.png
+    summary: 'Built responsive web interfaces and full-stack apps with Next.js and React, including image OCR and summarization projects.'
+    url: 'https://reactjs.org/'
+
+  - name: Node and Express JS
+    logo: /images/sections/skills/node.svg
+    summary: 'Developed backend APIs using Node.js and Express, integrated them with MongoDB, and deployed them on cloud servers.'
+    url: 'https://expressjs.com/'
+
+  - name: Databases (MongoDB and PostgreSQL)
+    logo: /images/sections/skills/mongo.svg
+    summary: 'Used MongoDB in full-stack MERN projects and PostgreSQL for structured data handling in ML experiments.'
+    url: 'https://www.mongodb.com/'
+
+  - name: Version Control (Git and GitHub)
+    # logo: /images/sections/skills/github.png
+    logo: /images/sections/skills/git-white.png
+    summary: 'Collaborated on open-source and university projects using Git; proficient with branching, pull requests, and GitHub Actions.'
+    url: 'https://github.com/'
+
+  - name: Deployment (Ubuntu and MS Azure)
+    logo: /images/sections/skills/azure.png
+    summary: 'Deployed full-stack apps on Ubuntu servers and explored cloud hosting options like Azure for DevOps workflows.'
+    url: 'https://azure.microsoft.com/'
+
+  - name: Machine Learning (scikit-learn and TensorFlow)
+    logo: /images/sections/skills/tensorflow.png
+    summary: 'Built ML models using scikit-learn and TensorFlow; applied them in OCR summarization, healthcare, and finance projects.'
+    url: 'https://www.tensorflow.org/'

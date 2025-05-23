@@ -1,0 +1,23 @@
+section:
+  name: Involvements
+  id: involvements
+  enable: true
+  weight: 1.5
+  showOnNavbar: true
+  # hideTitle: true
+
+involvements:
+  - title: Stanford Code in Place - 2025
+    description: Completed Stanford's Code in Place with distinction.
+    logo: /images/sections/experiences/stanford.png
+    link: https://codeinplace.stanford.edu/
+
+  - title: Harvard CS50 Puzzle Day - 2025
+    description: Completed all 9/9 puzzles of Harvard CS50 Puzzle day .
+    logo: /images/sections/involvements/harvard.svg
+    link: https://certificates.cs50.io/78055ab4-1ddb-44c0-b2df-76845286d019.pdf
+
+  - title: '/execute: AI Genesis Summary - 2025'
+    description: 'Participated with an international team and submitted InboxIQ - Automated tool for Email'
+    logo: '/images/sections/achievements/harvard.png'
+    link: https://lablab.ai/event/execute-ai-genesis/firstcrack/smart-email-sorting-and-reply-suggestion

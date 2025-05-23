@@ -1,0 +1,71 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+buttons:
+  - name: All
+    filter: 'all'
+  - name: Hackathons
+    filter: hackathon
+  - name: React
+    filter: 'react'
+  - name: Node
+    filter: 'nodejs'
+  - name: FAST API
+    filter: 'fast-api'
+  - name: MERN
+    filter: 'mern'
+  - name: Gen AI
+    filter: 'gen-ai'
+  - name: Azure
+    filter: 'azure'
+  - name: VPS Deployment
+    filter: 'vps-deployment'
+  
+
+projects:
+
+projects:
+  - name: "InboxIQ – AI Email Triage Assistant"
+    logo: "/images/sections/projects/inboxiq.png"  
+    role: "Backend Developer"
+    timeline: "May 2025"
+    url: "https://lablab.ai/event/execute-ai-genesis/firstcrack/smart-email-sorting-and-reply-suggestion"
+    summary: >
+      InboxIQ is an AI-powered email triage assistant developed during the Execute: AI Genesis international hackathon. 
+      It helps users manage their inbox efficiently by using AI to organize, prioritize, and suggest replies to emails. 
+      I contributed as a backend developer, focusing on scalable service development, AI integration, and deployment.
+    tags: ['hackathon', 'gen-ai', 'azure', 'fast-api']
+
+
+
+    projects:
+  - name: "Healthcare Translation Web App with Generative AI"
+    # logo: "/images/experiences/healthcare-translation.png"  # Replace with the actual image path or remove if not used
+    role: "Full-Stack Developer"
+    timeline: "April 2025"
+    url: "https://github.com/waqarali5498/Real-Time-Multilingual-Healthcare-Translator"
+    summary: >
+      A multilingual translation application for healthcare, enabling seamless communication 
+      between patients and providers. Integrates Azure’s translation services, GPT-3.5 Turbo, and speech recognition 
+      to transcribe and translate audio input into live transcriptions and translated audio output. 
+    tags: ['healthcare', 'gen-ai',  'react', 'azure', ]
+
+
+
+  - name: 'Web Application for Agriculture Extension Office, Haripur'
+    logo: '/images/sections/experiences/agri.png'
+    role: 'Full Stack Developer'
+    timeline: 'Nov. 2023 – Feb. 2024'
+    # repo: ""  # Uncomment and add if there's a public repository
+    url: 'http://www.agriextensionharipur.com'
+    summary: >
+      Developed and deployed a web application to digitize the paper-based workflows of the Agriculture Extension Office Haripur. 
+      Ensured mobile accessibility, secure access for authorized employees, and performance tracking for supervisors. It was also responsive.
+    tags: ['mern', 'vps-deployment', 'react', 'nodejs']
