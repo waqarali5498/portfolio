@@ -6,7 +6,6 @@ section:
   showOnNavbar: true
   # hideTitle: true
 
-
 involvements:
   - title: Stanford Code in Place - 2025
     description: Completed Stanford’s Code in Place program with distinction in programming fundamentals.
@@ -15,7 +14,8 @@ involvements:
 
   - title: Harvard CS50 Puzzle Day - 2025
     description: Solved all 9 puzzles of Harvard's CS50 Puzzle Day, showcasing strong problem-solving skills.
-    logo: '/images/sections/experiences/harvard_simple.png'
+    # logo: '/images/sections/experiences/harvard_simple.png'
+    logo: 'https://www.harvard.edu/wp-content/uploads/2021/02/harvard-fac.png?w=400&h=300&crop=1%20400w%20300h'
     link: https://certificates.cs50.io/78055ab4-1ddb-44c0-b2df-76845286d019.pdf
 
   - title: Execute - AI Genesis Summary - 2025
