@@ -54,6 +54,12 @@ enableEmoji: true
 
 # Site parameters
 params:
+  background: /images/boat-background.jpg
+
+  # logo:
+  #   main: /images/changed.png
+  #   inverted: /images/changed.png
+  #   favicon: /images/changed.png
   # GitHub repo URL of your site
   gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
 

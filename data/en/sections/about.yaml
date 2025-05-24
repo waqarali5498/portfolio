@@ -18,7 +18,7 @@ company:
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am an aspiring software engineer with a strong background in MERN stack web development, DevOps, and machine learning. I have deployed production-ready applications on Ubuntu servers and actively participate in international competitions such as CS50 Harvard Puzzle Day, CALICO, Stanford Code in Place, and differnet hackathons. I love building fun and impactful projects. In my free time i like to play Chess'
+summary: 'I am an aspiring software engineer with a strong background in MERN stack web development, DevOps, and machine learning. I have deployed production-ready applications on Ubuntu servers and actively participate in international competitions such as CS50 Harvard Puzzle Day, Stanford Code in Place, and different hackathons. I love building fun and impactful projects. In my free time i like to play Chess'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

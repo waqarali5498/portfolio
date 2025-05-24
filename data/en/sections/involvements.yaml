@@ -14,10 +14,10 @@ involvements:
 
   - title: Harvard CS50 Puzzle Day - 2025
     description: Completed all 9/9 puzzles of Harvard CS50 Puzzle day .
-    logo: /images/sections/involvements/harvard.png
+    logo: '/images/sections/experiences/harvard_simple.png'
     link: https://certificates.cs50.io/78055ab4-1ddb-44c0-b2df-76845286d019.pdf
 
-  - title: '/execute: AI Genesis Summary - 2025'
+  - title: 'Execute - AI Genesis Summary - 2025'
     description: 'Participated with an international team and submitted InboxIQ - Automated tool for Email'
-    logo: '/images/sections/achievements/harvard.png'
+    logo: 'https://lablab.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flablab-logo-invertedcolor.903446af.png&w=256&q=100'
     link: https://lablab.ai/event/execute-ai-genesis/firstcrack/smart-email-sorting-and-reply-suggestion

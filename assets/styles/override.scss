@@ -14,95 +14,172 @@
 //   }
 // }
 
-// .involvements-list {
-//   list-style: disc;
-//   padding-left: 1.5rem;
-//   font-size: 1.1rem;
-//   line-height: 1.6;
+// __________________-------------------------___________
+
+// .involvement-card {
+//   margin-top: 0.5rem;
+//   margin-bottom: 0.5rem;
+//   height: 100%;
+//   border-radius: 12px;
+//   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+//   transition: transform 0.2s ease, box-shadow 0.2s ease;
+//   background-color: get-light-color('bg-primary'); // Light mode default
+
+//   .card-head {
+//     background-color: get-light-color('bg-primary') !important;
+//     height: fit-content;
+//     padding: 0.7rem;
+//     padding-bottom: 0rem;
+//     border-bottom: 0.0625rem solid rgba(get-light-color('accent-color'), 0.4);
+
+//     .card-img-xs {
+//       margin-right: 0.5rem;
+//       margin-bottom: 0.75rem;
+//     }
+//   }
+
+//   .card-body {
+//     padding-top: 0.2rem;
+//     padding-left: 0.7rem;
+//   }
+
+//   &:hover {
+//     transform: translateY(-4px);
+//     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+//   }
+// }
+
+// html[data-theme='dark'] {
+//   .involvement-card {
+//     background-color: get-dark-color('bg-card');
+
+//     .card-head {
+//       background-color: get-dark-color('bg-card') !important;
+//       border-bottom: 0.0625rem solid rgba(get-dark-color('accent-color'), 0.4);
+//     }
+//   }
 // }
 
 // .involvement-card {
-//   text-align: center;
-//   background-color: #0d1117; // or your section background
-//   color: #c9d1d9;
+//   margin: 0.75rem 0;
+//   height: 100%;
+//   border-radius: 16px;
+//   backdrop-filter: blur(6px);
+//   background: rgba(255, 255, 255, 0.85); // Light mode glass effect
+//   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+//   border: 1px solid rgba(0, 0, 0, 0.08);
+//   transition: all 0.3s ease;
 
-//   .involvement-logo {
-//     max-height: 100px;
-//     max-width: 100%;
-//     object-fit: contain;
-//     margin-bottom: 1rem;
-//     transition: transform 0.3s ease;
+//   .card-head {
+//     background: transparent;
+//     padding: 1rem;
+//     padding-bottom: 0.5rem;
+//     border-bottom: 1px solid rgba(get-light-color('accent-color'), 0.2);
+
+//     .card-img-xs {
+//       margin-right: 0.75rem;
+//       margin-bottom: 0.75rem;
+//     }
 //   }
 
-//   .involvement-logo:hover {
-//     transform: scale(1.05);
-//   }
-
-//   h5 {
-//     color: #58a6ff;
-//   }
-
-//   p {
+//   .card-body {
+//     padding: 0.5rem 1rem 1rem 1rem;
+//     color: get-light-color('text-color');
 //     font-size: 0.95rem;
 //   }
 
-//   .btn-outline-primary {
-//     border-color: #58a6ff;
-//     color: #58a6ff;
-//   }
-
-//   .btn-outline-primary:hover {
-//     background-color: #58a6ff;
-//     color: #0d1117;
+//   &:hover {
+//     transform: scale(1.015);
+//     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+//     border: 1px solid get-light-color('accent-color');
 //   }
 // }
 
-// .involvement-logo {
-//   max-height: 80px;
-//   max-width: 100%;
-//   object-fit: contain;
+// html[data-theme='dark'] {
+//   .involvement-card {
+//     // background: rgba(30, 30, 30, 0.85); // Dark mode glass effect
+//     background-color: get-dark-color('bg-card');
+//     border: 1px solid rgba(255, 255, 255, 0.08);
+//     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+
+//     .card-head {
+//       border-bottom: 1px solid rgba(get-dark-color('accent-color'), 0.2);
+//     }
+
+//     .card-body {
+//       color: get-dark-color('text-color');
+//     }
+
+//     &:hover {
+//       border: 1px solid get-dark-color('accent-color');
+//       box-shadow: 0 10px 30px rgba(255, 255, 255, 0.12);
+//     }
+//   }
 // }
 
-.involvement-card {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  height: 100%;
+.minimal-card {
+  background-color: get-light-color('bg-primary'); // matches site background
   border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  background-color: get-light-color('bg-primary'); // Light mode default
-
-  .card-head {
-    background-color: get-light-color('bg-primary') !important;
-    height: fit-content;
-    padding: 0.7rem;
-    padding-bottom: 0rem;
-    border-bottom: 0.0625rem solid rgba(get-light-color('accent-color'), 0.4);
-
-    .card-img-xs {
-      margin-right: 0.5rem;
-      margin-bottom: 0.75rem;
-    }
-  }
-
-  .card-body {
-    padding-top: 0.2rem;
-    padding-left: 0.7rem;
-  }
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo-wrapper {
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 50%;
+    padding: 0.5rem;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .involvement-logo {
+      max-width: 32px;
+      height: auto;
+    }
+  }
+
+  h5,
+  p {
+    color: get-light-color('text-color');
+  }
+
+  .learn-more-link {
+    font-size: 0.9rem;
+    color: get-light-color('accent-color');
+    font-weight: 500;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
 html[data-theme='dark'] {
-  .involvement-card {
-    background-color: get-dark-color('bg-card');
+  .minimal-card {
+    background-color: get-dark-color('bg-primary');
+    border: 1px solid rgba(255, 255, 255, 0.06);
 
-    .card-head {
-      background-color: get-dark-color('bg-card') !important;
-      border-bottom: 0.0625rem solid rgba(get-dark-color('accent-color'), 0.4);
+    .logo-wrapper {
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    h5,
+    p {
+      color: get-dark-color('text-color');
+    }
+
+    .learn-more-link {
+      color: get-dark-color('accent-color');
     }
   }
+
+
 }
