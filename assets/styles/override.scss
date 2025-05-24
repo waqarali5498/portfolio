@@ -180,6 +180,124 @@ html[data-theme='dark'] {
       color: get-dark-color('accent-color');
     }
   }
+}
 
+.testimonial-card {
+  background-color: get-light-color('bg-primary');
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  max-width: 720px;
+  margin: 2rem auto;
+  position: relative;
+  text-align: center;
 
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .quote-mark.open {
+    font-size: 2.5rem;
+    color: get-light-color('accent-color');
+    opacity: 0.13;
+    position: absolute;
+    top: 1.2rem;
+    left: 1.5rem;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .testimonial-avatar {
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem auto;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
+  .testimonial-text {
+    color: get-light-color('text-color');
+    font-size: 1.08rem;
+    font-style: italic;
+    margin-bottom: 1.2rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  .testimonial-author {
+    color: get-light-color('text-color');
+    font-size: 1rem;
+    font-weight: 500;
+
+    .author-title {
+      color: get-light-color('accent-color');
+      font-weight: 400;
+      margin-left: 0.4em;
+    }
+    .author-context {
+      font-size: 0.93em;
+      color: #888;
+      margin-top: 0.2em;
+    }
+  }
+
+  .testimonial-link {
+    font-size: 0.9rem;
+    color: get-light-color('accent-color');
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+html[data-theme='dark'] {
+  .testimonial-card {
+    background-color: get-dark-color('bg-primary');
+    border: 1px solid rgba(255, 255, 255, 0.06);
+
+    .quote-mark.open {
+      color: get-dark-color('accent-color');
+      opacity: 0.18;
+    }
+
+    .testimonial-avatar {
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .testimonial-text,
+    .testimonial-author {
+      color: get-dark-color('text-color');
+    }
+
+    .author-title {
+      color: get-dark-color('accent-color');
+    }
+
+    .author-context {
+      color: #aaa;
+    }
+
+    .testimonial-link {
+      color: get-dark-color('accent-color');
+    }
+  }
 }

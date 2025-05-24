@@ -1,0 +1,23 @@
+section:
+  name: Recommendations
+  id: testimonials
+  enable: true
+  weight: 10
+  showOnNavbar: true
+  template: sections/testimonials.html
+
+testimonials:
+  - name: Mariam Qusai
+    title: Senior Machine Learning Engineer
+    context: Worked together during Genesis AI hackathon
+    text: >-
+      I worked with Waqar during a hackathon and was amazed by his creativity and dedication.He came up with the project idea, scoped it perfectly for the time frame, and showed expertise in front-end, back-end, machine learning, and deployment. Waqar even stepped in to finish incomplete tasks by others, ensuring we could finalize our prototype. He’s a fantastic team player and a valuable asset to any team.
+    link: https://www.linkedin.com/in/waqarali5498/details/recommendations/
+
+  - name: Abdullah Zaigham
+    title: SOC Analyst @ LetsDefend | Ex-NUST
+    context: Direct manager during a government database project
+    text: >-
+      I recommend Mr. Waqar Ali, as he had a great passion for the MERN stack and a strong commitment to advancing technology. Waqar is particularly skilled in web development, excelling in JavaScript and Node.js. He quickly learns and applies new concepts, showing 
+      his strong analytical skills and curiosity. During our collaboration in a team on a Database Project for the Agriculture Extension Office in Haripur, he consistently exhibited commitment and punctuality in completing his tasks.
+    link: https://www.linkedin.com/in/waqarali5498/details/recommendations/

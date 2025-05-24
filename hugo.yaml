@@ -1,4 +1,4 @@
-baseURL: https://waqarsportfolio.netlify.app/
+baseURL: https://waqarali.live/
 
 languageCode: en-us
 title: "Waqar's Portfolio"
@@ -55,6 +55,9 @@ enableEmoji: true
 # Site parameters
 params:
   background: /images/boat-background.jpg
+
+  logo:
+    favicon: /images/favicon.png
 
   # logo:
   #   main: /images/changed.png

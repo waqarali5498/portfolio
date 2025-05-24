@@ -1,0 +1,63 @@
+{{/* ===== Testimonials / Recommendations section ===== */}} {{ $sectionID := replace (lower
+.section.name) " " "-" }} {{ if .section.id }} {{ $sectionID = .section.id }} {{ end }}
+<div class="testimonials-section w-100 py-5">
+  <div class="container anchor">
+    {{ if not (.section.hideTitle) }}
+    <h1 class="text-center text-uppercase font-weight-bold mb-5">
+      <span id="{{ $sectionID }}"></span>{{ .section.name }}
+    </h1>
+    {{ end }}
+
+    <div
+      id="testimonialCarousel"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-interval="6000"
+    >
+      <div class="carousel-inner">
+        {{ range $index, $t := .testimonials }}
+        <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+          <div class="testimonial-card mx-auto">
+            <div class="quote-mark open">❝</div>
+            {{ if $t.avatar }}
+            <div class="testimonial-avatar mb-3 mx-auto">
+              <img src="{{ $t.avatar }}" alt="{{ $t.name }}" />
+            </div>
+            {{ end }}
+            <p class="testimonial-text mb-4">{{ $t.text }}</p>
+            <div class="testimonial-author">
+              <strong>{{ $t.name }}</strong>
+              {{ if $t.title }}<span class="author-title">· {{ $t.title }}</span>{{ end }} {{ if
+              $t.context }}
+              <div class="author-context">{{ $t.context }}</div>
+              {{ end }}
+            </div>
+            {{ if $t.link }}
+            <a href="{{ $t.link }}" target="_blank" rel="noopener" class="testimonial-link"
+              >Read on LinkedIn</a
+            >
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      <!-- Carousel controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#testimonialCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#testimonialCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</div>
