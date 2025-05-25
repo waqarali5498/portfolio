@@ -21,43 +21,55 @@ buttons:
     filter: 'fast-api'
   - name: MERN
     filter: 'mern'
+  - name: Machine Learning
+    filter: 'machine-learning'
   - name: Gen AI
     filter: 'gen-ai'
   - name: Azure
     filter: 'azure'
   - name: VPS Deployment
     filter: 'vps-deployment'
-  
 
 projects:
-
-projects:
-  - name: "InboxIQ – AI Email Triage Assistant"
-    logo: "/images/sections/projects/inboxiq.png"  
-    role: "Backend Developer"
-    timeline: "May 2025"
-    url: "https://lablab.ai/event/execute-ai-genesis/firstcrack/smart-email-sorting-and-reply-suggestion"
+  - name: 'InboxIQ – AI Email Triage Assistant'
+    logo: '/images/sections/projects/inboxiq.png'
+    role: 'Backend Developer'
+    timeline: 'May 2025'
+    url: 'https://lablab.ai/event/execute-ai-genesis/firstcrack/smart-email-sorting-and-reply-suggestion'
     summary: >
       InboxIQ is an AI-powered email triage assistant developed during the Execute: AI Genesis international hackathon. 
       It helps users manage their inbox efficiently by using AI to organize, prioritize, and suggest replies to emails. 
       I contributed as a backend developer, focusing on scalable service development, AI integration, and deployment.
     tags: ['hackathon', 'gen-ai', 'azure', 'fast-api']
 
-
-
+  - name: 'Flower Species Classification Using DenseNet201'
+    logo: '/images/sections/projects/vgg_logo.png' # Optional: update if you have a logo
+    role: 'Machine Learning Engineer'
+    timeline: 'May 2025'
+    url: 'https://github.com/waqarali5498/Flower-Species-Classification-Using-DenseNet201'
+    summary: >
+      Built a deep learning pipeline using DenseNet201 for classifying 102 flower species from the Oxford Flowers dataset. 
+      Preprocessed and labeled data using MATLAB `.mat` files, split into train/val sets, and achieved 91% accuracy in just 5 epochs.
+    tags:
+      [
+        'tensorflow',
+        'deep-learning',
+        'machine-learning',
+        'image-classification',
+        'cnn',
+        'densenet201',
+      ]
     projects:
-  - name: "Healthcare Translation Web App with Generative AI"
-    # logo: "/images/experiences/healthcare-translation.png"  # Replace with the actual image path or remove if not used
-    role: "Full-Stack Developer"
-    timeline: "April 2025"
-    url: "https://github.com/waqarali5498/Real-Time-Multilingual-Healthcare-Translator"
+  - name: 'Healthcare Translation Web App with Generative AI'
+    logo: '/images/sections/projects/chip.png' # Replace with the actual image path or remove if not used
+    role: 'Full-Stack Developer'
+    timeline: 'April 2025'
+    url: 'https://github.com/waqarali5498/Real-Time-Multilingual-Healthcare-Translator'
     summary: >
       A multilingual translation application for healthcare, enabling seamless communication 
       between patients and providers. Integrates Azure’s translation services, GPT-3.5 Turbo, and speech recognition 
-      to transcribe and translate audio input into live transcriptions and translated audio output. 
-    tags: ['healthcare', 'gen-ai',  'react', 'azure', ]
-
-
+      to transcribe and translate audio input into live transcriptions and translated audio output.
+    tags: ['healthcare', 'gen-ai', 'react', 'azure']
 
   - name: 'Web Application for Agriculture Extension Office, Haripur'
     logo: '/images/sections/experiences/agri.png'

@@ -19,6 +19,11 @@ skills:
     summary: 'Developed backend APIs using Node.js and Express, integrated them with MongoDB, and deployed them on cloud servers.'
     url: 'https://expressjs.com/'
 
+  - name: Machine Learning (scikit-learn and TensorFlow)
+    logo: /images/sections/skills/tensorflow.png
+    summary: 'Built ML models using scikit-learn and TensorFlow; applied them in OCR summarization, healthcare, and finance projects.'
+    url: 'https://www.tensorflow.org/'
+
   - name: Databases (MongoDB and PostgreSQL)
     logo: /images/sections/skills/mongo.svg
     summary: 'Used MongoDB in full-stack MERN projects and PostgreSQL for structured data handling in ML experiments.'
@@ -34,8 +39,3 @@ skills:
     logo: /images/sections/skills/azure.png
     summary: 'Deployed full-stack apps on Ubuntu servers and explored cloud hosting options like Azure for DevOps workflows.'
     url: 'https://azure.microsoft.com/'
-
-  - name: Machine Learning (scikit-learn and TensorFlow)
-    logo: /images/sections/skills/tensorflow.png
-    summary: 'Built ML models using scikit-learn and TensorFlow; applied them in OCR summarization, healthcare, and finance projects.'
-    url: 'https://www.tensorflow.org/'
