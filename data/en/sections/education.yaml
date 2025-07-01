@@ -18,7 +18,7 @@ degrees:
       darkLogo: '/images/sections/education/pafiast.jpg'
     grade:
       scale: CGPA
-      achieved: 3.77
+      achieved: 3.8
       outOf: 4
     publications: []
     extracurricularActivities:

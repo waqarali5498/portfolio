@@ -6,12 +6,26 @@ section:
   showOnNavbar: true
   template: sections/testimonials.html
 
+
+
 testimonials:
   - name: Mariam Qusai
     title: Senior Machine Learning Engineer
     context: Worked together during Genesis AI hackathon
     text: >-
       I worked with Waqar during a hackathon and was amazed by his creativity and dedication.He came up with the project idea, scoped it perfectly for the time frame, and showed expertise in front-end, back-end, machine learning, and deployment. Waqar even stepped in to finish incomplete tasks by others, ensuring we could finalize our prototype. He’s a fantastic team player and a valuable asset to any team.
+    link: https://www.linkedin.com/in/waqarali5498/details/recommendations/
+
+
+  - name: Aylin Gelmez
+    title: MIS Student at Adnan Menderes University - Turkey
+    context: Was Taught by Waqar as a Section Leader at Stanford CIP
+    text: >-
+      Waqar Ali was my section leader during Code in Place 2025, and it was truly a pleasure to work with him.
+
+      Over the course of six weeks, we covered topics like the Art of Karel, Introduction to Python, control flow, graphics, lists, and dictionaries. Throughout this journey, Waqar guided us with clarity, patience, and kindness.
+
+      His ability to explain complex topics in a simple way and his consistently positive attitude made me feel supported at every step. I believe he is a role model in the field of education, and I wholeheartedly recommend him.
     link: https://www.linkedin.com/in/waqarali5498/details/recommendations/
 
   - name: Abdullah Zaigham
