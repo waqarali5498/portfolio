@@ -31,6 +31,17 @@ buttons:
     filter: 'vps-deployment'
 
 projects:
+  - name: 'LeCommis – AI Meal Planning Assistant'
+    logo: '/images/sections/experiences/lecommis.png' # Replace with actual path if you have the logo
+    role: 'Frontend Engineer'
+    timeline: 'July 2025'
+    # repo: ""  # Add repo URL if public
+    url: 'https://lablab.ai/event/raise-your-hack/haickers-prosus-track/lecommis'
+    summary: >
+      Participated in an international hackathon hosted by lablab.ai and built LeCommis, an AI-powered meal planner that generates personalized recipes based on users' dietary needs, allergies, and nutritional goals. 
+      Implemented logic for dynamic meal suggestions and integrated grocery ordering functionality with real-time store lookup for delivery or pickup.
+    tags: ['ai', 'hackathon', 'react', 'api', 'openai']
+
   - name: 'InboxIQ – AI Email Triage Assistant'
     logo: '/images/sections/projects/inboxiq.png'
     role: 'Backend Developer'

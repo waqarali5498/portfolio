@@ -8,36 +8,36 @@ section:
   template: sections/about.html
 
 # your designation
-designation:  Undergraduate Student 
+designation: Final Year Undergraduate Student
 # your company information
 company:
   name: Pak-Austria Fachhochschule.
-  url: "https://paf-iast.edu.pk/"
+  url: 'https://paf-iast.edu.pk/'
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+resume: 'files/resume.pdf'
 
 # a summary about you
-summary: 'I am an aspiring software engineer with a strong background in MERN stack web development, DevOps, and machine learning. I have deployed production-ready applications on Ubuntu servers and actively participate in international competitions such as CS50 Harvard Puzzle Day, Stanford Code in Place, and different hackathons. I love building fun and impactful projects. In my free time i like to play Chess'
+summary: "I’m an aspiring AI researcher with a solid background in MERN stack web development, DevOps, and applied machine learning. I’ve deployed production-ready applications on Ubuntu servers and enjoy exploring real-world problems through international competitions like CS50 Harvard Puzzle Day, Stanford Code in Place, and various hackathons. I’m passionate about building intelligent systems that are both impactful and practical. In my free time, I like to play chess and watch F1 racing"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "waqarali5498@gmail.com"
+  - name: Email
+    icon: 'fas fa-envelope'
+    url: 'waqarali5498@gmail.com'
 
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/waqarali5498"
+  - name: Github
+    icon: 'fab fa-github'
+    url: 'https://www.github.com/waqarali5498'
 
-# - name: Stackoverflow
-#   icon: "fab fa-stack-overflow"
-#   url: "#"
+  # - name: Stackoverflow
+  #   icon: "fab fa-stack-overflow"
+  #   url: "#"
 
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/waqarali5498/"
+  - name: LinkedIn
+    icon: 'fab fa-linkedin'
+    url: 'https://www.linkedin.com/in/waqarali5498/'
 
 # - name: Twitter
 #   icon: "fab fa-twitter"
@@ -50,37 +50,37 @@ socialLinks:
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
+
 badges:
-# - type: certification
-#   name: Certified Kubernetes Security Specialist
-#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-#   badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  # - type: certification
+  #   name: Code in Place Section Leader
+  #   url: 'https://digitalcredential.stanford.edu/check/D604648F29B08C2B557CB5B617D20D42CF3BF79DB86E22E73D9E415D9FE18859ajFvL2JyZjVScnJ6SHU2MWNhdWV0TXdBcTV5V3p2RUF1RzZiN0tVa1lpNzcxM0hS'
+  #   badge: https://jmp.sh/s/Sty7hYo5KRGhxs434pbp
 
-# - type: certification
-#   name: Istio and IBM Cloud Kubernetes Service
-#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-#   badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+  # - type: certification
+  #   name: Istio and IBM Cloud Kubernetes Service
+  #   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+  #   badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
 
-# - type: certification
-#   name: Artificial Intelligence and Machine Learning
-#   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-#   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  # - type: certification
+  #   name: Artificial Intelligence and Machine Learning
+  #   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
+  #   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
+  - type: soft-skill-indicator
+    name: Leadership
+    percentage: 85
+    color: blue
 
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
+  - type: soft-skill-indicator
+    name: Team Work
+    percentage: 90
+    color: yellow
 
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
-
+  - type: soft-skill-indicator
+    name: Hard Working
+    percentage: 85
+    color: orange
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1

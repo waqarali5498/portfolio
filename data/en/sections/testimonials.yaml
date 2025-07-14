@@ -6,8 +6,6 @@ section:
   showOnNavbar: true
   template: sections/testimonials.html
 
-
-
 testimonials:
   - name: Mariam Qusai
     title: Senior Machine Learning Engineer
@@ -16,6 +14,16 @@ testimonials:
       I worked with Waqar during a hackathon and was amazed by his creativity and dedication.He came up with the project idea, scoped it perfectly for the time frame, and showed expertise in front-end, back-end, machine learning, and deployment. Waqar even stepped in to finish incomplete tasks by others, ensuring we could finalize our prototype. He’s a fantastic team player and a valuable asset to any team.
     link: https://www.linkedin.com/in/waqarali5498/details/recommendations/
 
+  - name: Joseph Chataignon
+    title: AI Engineer and Researcher, Doctoral Student at University of Bern
+    context: Worked with Waqar during the RAISE 2025 Hackathon
+    text: >-
+      I participated in the RAISE 2025 hackathon for 4 days with Waqar. Throughout the event, Waqar showed great dedication and adaptability. He handled both front-end development and logic challenges.
+
+      Waqar's motivation and work ethic stood out; he consistently put in the effort to ensure our project's success. His ability to quickly adapt to new tools was impressive, and thanks to his hard work, we delivered a working project by the end of the hackathon.
+
+      Working with Waqar was a great experience, and I'm sure he'll continue to do well in his career. I highly recommend Waqar for any development role and look forward to working with him again in the future.
+    link: https://www.linkedin.com/in/waqarali5498/details/recommendations/
 
   - name: Aylin Gelmez
     title: MIS Student at Adnan Menderes University - Turkey

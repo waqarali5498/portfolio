@@ -19,7 +19,7 @@ degrees:
     grade:
       scale: CGPA
       achieved: 3.8
-      outOf: 4
+      outOf: '4.0'
     publications: []
     extracurricularActivities:
       - 'Co-Lead of Google Developer Group on Campus (GDGoC - 2025).'
@@ -29,7 +29,8 @@ degrees:
       - name: Academic Achievements
         content: |
           - 1× Rector’s List Award
-          - 3× Dean’s List Awards
+          - 4× Dean’s List Awards
+          - 5x 100% Merit Scholarship Holder
         # - name: Final Year Project
         #   content: 'Working on AI-based deep fake detection for videos, audios and images.'
         # - name: Exchange Program
