@@ -13,21 +13,26 @@ experiences:
       name: 'Stanford Code in Place'
       url: 'https://codeinplace.stanford.edu/'
       location: 'Remote'
-      logo: '/images/sections/experiences/stanford.png' # Make sure this path exists in your static/images directory
+      logo: '/images/sections/experiences/stanford.png'
       darkLogo: '/images/sections/experiences/stanford.png'
       overview: >
         Code in Place is a global initiative by Stanford University that brings together volunteers 
         to teach computer science through the CS106A curriculum, fostering inclusive and accessible education worldwide.
     positions:
       - designation: 'Section Leader'
+        start: 'April 2026'
+        end: 'May 2026'
+        responsibilities:
+          - 'Taught Python programming using Stanford’s CS106A curriculum to a diverse, global cohort of 10 students.'
+          - 'Facilitated weekly online coding sessions and discussions, promoting conceptual understanding and practical coding skills.'
+
+      - designation: 'Section Leader'
         start: 'April 2025'
         end: 'May 2025'
         responsibilities:
-          - 'Taught Python programming using Stanford’s CS106A curriculum to a diverse cohort of 13 students from countries including Turkey, the US, Canada, Pakistan, and more.'
-          - 'Facilitated weekly online coding sessions and discussions, promoting conceptual understanding and practical coding skills.'
+          - 'Taught 13 students from countries including Turkey, the US, Canada, Pakistan, and more.'
+          - 'Conducted TeachNow sessions, providing personalized, one-on-one mentoring and targeted learning support to individual students from across the global community.'
           - 'Guided and mentored students through exercises and assignments, providing feedback and support.'
-          - 'Collaborated with Stanford student TAs and faculty to align teaching strategies and improve learner outcomes.'
-          - 'Encouraged global engagement and inclusivity through personalized, interactive instruction.'
 
   - company:
       name: 'Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology'
@@ -39,9 +44,9 @@ experiences:
     positions:
       - designation: 'Teacher Assistant'
         start: 'September 2024'
-        end: 'Present'
+        end: 'June 2026'
         responsibilities:
-          - 'Assisted in course management and student support for Compiler Construction and COAL.'
+          - 'Assisted in course management and student support for Programming Fundamentals, Compiler Construction and COAL.'
           - 'Supported faculty in organizing practical lab sessions and tutorials.'
           - 'Maintain records of student progress, attendance, and assignments.'
           - 'Evaluate and provide feedback on student assignments under the teacher’s guidance.'
