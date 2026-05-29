@@ -81,8 +81,14 @@ badges:
     badge: '/images/stanford_cip.svg'
 
   - type: certification
+    name: Google Developer Group on Campus Organizer
+    url: 'https://developers.google.com/profile/badges/community/gdg/GDGoC/organizer?u=115463375412010805604'
+    badge: '/images/gdg_badge.svg'
+
+
+  - type: certification
     name: GenAI Works - LeadWithAIAgents Hackathon 2025 
-    url: 'https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist'
+    # url: 'https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist'
     badge: '/images/genai2025.png'
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
